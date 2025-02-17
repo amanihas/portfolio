@@ -1,0 +1,78 @@
+/* Ensure the html, body, and container take up the full viewport */
+html, body, #root, .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Optional: gives the header a background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    z-index: 10;
+  }
+  
+  .portfolio-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Styles */
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    /* Use 100vh to cover the viewport height */
+    height: 100vh;
+    /* Center the content both vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Add top padding to prevent content from hiding behind the fixed header */
+    padding-top: 80px; /* Adjust based on your header's height */
+    transform: translateY(-40px);
+  }
+  
+  /* Profile Picture in a Circle */
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Bio Text Styling */
+  .bio {
+    font-size: 24px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 20px;
+  }
+
+  .bio-sub {
+    font-size: 14px; /* Smaller font for the second line */
+  }
