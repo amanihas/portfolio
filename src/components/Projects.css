@@ -1,0 +1,43 @@
+/* src/components/Projects.css */
+.projects-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap; /* Wraps boxes to the next line if needed */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-box {
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-box h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .projects-page,
+  .project-detail-page {
+    padding-top: 80px; /* Adjust this value based on your header height */
+  }
+  

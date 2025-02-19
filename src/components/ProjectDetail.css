@@ -1,0 +1,48 @@
+.project-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 800px; /* Large margin on either side */
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: flex-start; /* Aligns title to the left */
+    width: 100%;
+  }
+  
+  .title-container {
+    text-align: left;
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .project-date {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .project-image {
+    width: 100%;       /* Make the image span the entire width of the container */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  .project-description {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    width: 100%;
+  }
+
+  .projects-page,
+  .project-detail-page {
+    padding-top: 80px; /* Adjust this value based on your header height */
+  }
+    
