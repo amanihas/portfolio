@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Header from "./Header";
-import "./ProjectDetail.css"; // Import the CSS file
+import "./ProjectDetail.css";
 
 const projects = [
   {
-    id: "1",
+    id: "3",
     title: "AmplifyHER",
-    date: "February 2025",
+    date: "April, 2024",
     image: "/images/AmplifyHER-pic.jpg",
     details: (
       <>
@@ -26,17 +26,73 @@ const projects = [
   {
     id: "2",
     title: "Fireboy and Watergirl",
-    date: "March 2025",
+    date: "Spring, 2024",
     image: "/images/FBaWG-pic.jpeg",
-    details: "This is a description of Project Two. It details the work done and technologies used."
+    details: (
+      <>
+        <p>
+        In the club I’m a part of, Girls Who Code, I worked together with a team of girls in order to create our own virsion of the popular game, Water Boy and Fire Girl.
+        </p>
+        <p>
+        We utilized HTML to ensure seamless display on browsers, JavaScript for the game’s core code and functionalities, and Tiled for crafting and designing the levels.
+        </p>
+        <p>
+        We met up once a week during the Spring 2024 semester and worjed together to create the game. Each member designed one of the level for the game using Tiled, an open source level editor. The level picured above is the one I created.
+        </p>
+        <p>
+        Throughout the project, we encountered challenges such as properly scaling the game characters to match the dimensions of each level and learning new software, as we were relatively inexperienced in game design. Despite these obstacles, we successfully completed the project and presented our work to other groups, demonstrating the results of our dedication and teamwork. 
+        </p>
+      </>
+    )
   },
   {
-    id: "3",
-    title: "Project Two",
-    date: "March 2025",
-    image: "/images/project2.jpg",
-    details: "This is a description of Project Two. It details the work done and technologies used."
-  }
+    id: "1",
+    title: "Knights' Wildlife Tracker",
+    date: "October, 2024",
+    image: "/images/wildlife-tracker.png",
+    details: (
+      <>
+        <p>
+          In October, I participated in UCF’s Knight Hacks VII. I worked with a partner to create a website, Knights’ Wildlife Tracker, that allows users to log wildlife sightings in real-time, upload images, and contribute to an interactive map. The app makes it easy for users to share their experiences and discover wildlife activity in the UCF area.
+        </p>
+        <p>
+          As wildlife lovers, we wanted to build a fun platform where people can easily share their wildlife sightings and connect with fellow nature enthusiasts. Our goal is to make it simple for everyone to enjoy and appreciate the outdoors while sharing those exciting moments with a community that cares about wildlife.
+        </p>
+        <p>We developed Knights’ Wildlife Tracker using:</p>
+        <ul>
+          <li>React for a responsive and user-friendly interface.</li>
+          <li>Node.js/Express for a robust backend capable of handling user data and requests.</li>
+          <li>Google Maps API for geolocation features that visualize sightings.</li>
+          <li>MongoDB for seamless image uploads and management.</li>
+        </ul>
+        <p>During development, we faced multiple challenges:</p>
+        <ul>
+          <li>
+            Ensuring that each uploaded image accurately pins to the corresponding location on the map required a moderate amount of research and testing.
+          </li>
+          <li>
+            We initially aimed to incorporate visual recognition technology to help identify animals in user-uploaded photos. This proved to be a greater challenge than we anticipated, so we chose to redirect our efforts toward other features that would provide more immediate value to our users.
+          </li>
+        </ul>
+        <p>
+          In the end, we successfully created a functioning prototype that features a sleek user interface and effectively integrates the Google Maps API for real-time geolocation of wildlife sightings. We’re proud of how these elements come together to deliver a smooth and intuitive experience for users interested in tracking wildlife.
+        </p>
+        <p>
+          We learned how crucial it is to stay flexible during the development process and to adapt our plans based on what works best for the project. We also gained valuable experience in integrating databases and tackling the technical challenges associated with geolocation features.
+        </p>
+        <p>
+          Looking ahead, we plan to enhance the application by integrating machine learning algorithms for species identification based on user-uploaded images. We also aim to add community engagement features to foster interaction among users.
+        </p>
+        <p>
+        Check out our project on{' '}
+        <a href="https://devpost.com/software/knights-wildlife-tracker" target="_blank" rel="noopener noreferrer">
+          Devpost
+        </a>
+          .
+        </p>
+      </>
+    ),
+  },
 ];
 
 function ProjectDetail() {

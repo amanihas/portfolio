@@ -6,8 +6,8 @@ import './Projects.css';
 const projects = [
   {
     id: 1,
-    title: "AmplifyHER",
-    previewImage: "/images/AmplifyHER-pic.jpg",
+    title: "Knights' Wildlife Tracker",
+    previewImage: "/images/Screenshot-green.png",
   },
   {
     id: 2,
@@ -16,8 +16,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "Knights' Wildlife Tracker",
-    previewImage: "/images/project3-preview.jpg",
+    title: "AmplifyHER",
+    previewImage: "/images/amplifyher.png",
   },
   // Add more projects as needed
 ];
@@ -35,7 +35,7 @@ function Projects() {
               key={project.id}
               className="project-box"
             >
-              <img src={project.image} alt={project.title} />
+              <img src={project.previewImage} alt={project.title} />
               <h2>{project.title}</h2>
             </Link>
           ))}
