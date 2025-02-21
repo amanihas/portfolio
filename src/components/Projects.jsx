@@ -19,6 +19,11 @@ const projects = [
     title: "AmplifyHER",
     previewImage: "/images/amplifyher.png",
   },
+  {
+    id: 4,
+    title: "Girls Who Budget",
+    previewImage: "/images/Girls_Who_Budget.webp",
+  }
   // Add more projects as needed
 ];
 

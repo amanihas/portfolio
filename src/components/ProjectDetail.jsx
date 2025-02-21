@@ -5,6 +5,34 @@ import "./ProjectDetail.css";
 
 const projects = [
   {
+    id: "4",
+    title: "Girls Who Budget",
+    date: "Fall, 2024",
+    image: "/images/Girls_Who_Budget.webp",
+    details: (
+      <>
+        <p>
+          In Fall 2024, I began working on Girls Who Budget with a group of members from my Girls Who Code club that I'm a part of.
+        </p>
+        <p>
+          Our website is a budgeting tool that allows users to input their income and expenses, and then provides them with a visual representation of their spending habits. The goal of the project is to help users better understand their financial situation and make informed decisions about their spending.
+        </p>
+        <p>
+          We worked with figma to create a prototype of our design, react to create the front-end, and php to create the back-end. We also used MySQL to store user data.
+        </p>
+        <p>
+          I was responsible for creating the front-end of the website. I used React to create the user interface and ensure that the website was responsive and easy to use. I also worked on the design of the website, making sure that it was visually appealing and easy to navigate.
+        </p>
+        <p>
+          Here is my figma design for the website: <img src="/images/girlsWhoBudget.png" alt="Girls Who Budget Design" className="project-image" />
+        </p>
+        <p>
+          We are currently working on connecting the APIs so that user data can be stored and accessed. We are also working on adding additional features, such as the ability to set financial goals and track progress over time. I am currently working on bringing the front-end to life!
+        </p>
+      </>
+    )
+  },
+  {
     id: "3",
     title: "AmplifyHER",
     date: "April, 2024",
