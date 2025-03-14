@@ -10,7 +10,6 @@ function HomePage() {
 
       {/* Main Content with Profile Picture and Bio */}
       <main className="main-content">
-        {/* Replace 'profile-pic.jpg' with the path to your image */}
         <img 
           src="/images/profile-pic.jpg" 
           alt="Profile" 
