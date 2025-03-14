@@ -1,7 +1,10 @@
-/* src/components/Projects.css */
-body {
-  background-color: hex(FFFDF5);
+.projects-page,
+.project-detail-page {
+  padding-top: 80px; /* Adjust this value based on your header height */
+  background-color: #FFFDF5;
+  min-height: 100vh;
 }
+
 .projects-container {
     padding: 20px;
     text-align: center;
@@ -38,10 +41,5 @@ body {
   .project-box h2 {
     margin: 10px 0;
     font-size: 18px;
-  }
-
-  .projects-page,
-  .project-detail-page {
-    padding-top: 80px; /* Adjust this value based on your header height */
   }
   

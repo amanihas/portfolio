@@ -5,6 +5,29 @@ import "./ProjectDetail.css";
 
 const projects = [
   {
+    id: "5",
+    title: "Portfolio Website",
+    date: "January 2025",
+    image: "/images/bg.png",
+    details: (
+      <>
+        <p>
+          I created this portfolio website to showcase my projects and skills. It serves as a platform for potential employers and collaborators to learn more about my work and interests in technology and design.
+        </p>
+        <p>
+          The website is built using React, CSS, and HTML, ensuring a responsive and user-friendly experience. I focused on creating a clean and modern design that highlights my projects effectively.
+          
+        </p>
+        <p>
+          You can explore the various sections of the site, including my projects, about me, and contact information. I plan to continuously update it with new projects and experiences as I grow in my career.
+        </p>
+        <p>
+          Here is my figma design for the website: <img src="/images/amanihas-portfolio.png" alt="Girls Who Budget Design" className="project-image" />
+        </p>
+      </>
+    )
+  },
+  {
     id: "4",
     title: "Girls Who Budget",
     date: "Fall, 2024",

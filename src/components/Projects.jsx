@@ -23,6 +23,11 @@ const projects = [
     id: 4,
     title: "Girls Who Budget",
     previewImage: "/images/Girls_Who_Budget.webp",
+  },
+  {
+    id: 5,
+    title: "Portfolio Website",
+    previewImage: "/images/bg.png",
   }
   // Add more projects as needed
 ];

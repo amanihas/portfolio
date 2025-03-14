@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hex(FFFDF5); /* Change if needed */
+    background-color: #FFFDF5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional for visual separation */
     z-index: 10;
   }

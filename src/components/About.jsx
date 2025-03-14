@@ -6,7 +6,6 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const About = () => {
   return (
     <div className="about-page">
-      {/* Reusable Header */}
       <Header />
       
       {/* About Content */}
