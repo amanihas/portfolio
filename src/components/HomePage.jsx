@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import Header from './Header';
 import './HomePage.css'; // Make sure this file is in the same folder
 

@@ -5,10 +5,10 @@ import "./ProjectDetail.css";
 
 const projects = [
   {
-    id: "5",
+    id: "1",
     title: "Portfolio Website",
     date: "January 2025",
-    image: "/images/bg.png",
+    image: "/images/HomePage.png",
     details: (
       <>
         <p>
@@ -28,7 +28,7 @@ const projects = [
     )
   },
   {
-    id: "4",
+    id: "2",
     title: "Girls Who Budget",
     date: "Fall, 2024",
     image: "/images/Girls_Who_Budget.webp",
@@ -56,7 +56,7 @@ const projects = [
     )
   },
   {
-    id: "3",
+    id: "5",
     title: "AmplifyHER",
     date: "April, 2024",
     image: "/images/AmplifyHER-pic.jpg",
@@ -75,7 +75,7 @@ const projects = [
     )
   },
   {
-    id: "2",
+    id: "4",
     title: "Fireboy and Watergirl",
     date: "Spring, 2024",
     image: "/images/FBaWG-pic.jpeg",
@@ -97,7 +97,7 @@ const projects = [
     )
   },
   {
-    id: "1",
+    id: "3",
     title: "Knights' Wildlife Tracker",
     date: "October, 2024",
     image: "/images/wildlife-tracker.png",

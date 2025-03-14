@@ -6,30 +6,30 @@ import './Projects.css';
 const projects = [
   {
     id: 1,
-    title: "Knights' Wildlife Tracker",
-    previewImage: "/images/Screenshot-green.png",
+    title: "Portfolio Website",
+    previewImage: "/images/HomePage.png",
   },
   {
     id: 2,
-    title: "Fireboy and Watergirl",
-    previewImage: "/images/FBaWG-pic.jpeg",
-  },
-  {
-    id: 3,
-    title: "AmplifyHER",
-    previewImage: "/images/amplifyher.png",
-  },
-  {
-    id: 4,
     title: "Girls Who Budget",
     previewImage: "/images/Girls_Who_Budget.webp",
   },
   {
+    id: 3,
+    title: "Knights' Wildlife Tracker",
+    previewImage: "/images/Screenshot-green.png",
+  },
+  {
+    id: 4,
+    title: "Fireboy and Watergirl",
+    previewImage: "/images/FBaWG-pic.jpeg",
+  },
+  {
     id: 5,
-    title: "Portfolio Website",
-    previewImage: "/images/bg.png",
+    title: "AmplifyHER",
+    previewImage: "/images/amplifyher.png",
   }
-  // Add more projects as needed
+
 ];
 
 function Projects() {
