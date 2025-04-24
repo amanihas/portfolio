@@ -30,33 +30,46 @@ const projects = [
   {
     id: "2",
     title: "Girls Who Budget",
-    date: "Fall, 2024",
-    image: "/images/Girls_Who_Budget.webp",
+    date: "Spring, 2025",
+    image: "/images/GWB.png",
     details: (
       <>
         <p>
-          In Fall 2024, I began working on Girls Who Budget with a group of members from my Girls Who Code club that I'm a part of.
+          In Spring 2025, I began working on Girls Who Budget with a group of members from my Girls Who Code club that I'm a part of.
         </p>
         <p>
-          Our website is a budgeting tool that allows users to input their income and expenses, and then provides them with a visual representation of their spending habits. The goal of the project is to help users better understand their financial situation and make informed decisions about their spending.
+          Our website is a budgeting tool that allows users to input their income and expenses, and then provides them with a visual representation of their spending habits. The goal of the project is to help users better understand their financial situation and budget their finances to help them make informed decisions about their spending.
         </p>
         <p>
-          We worked with figma to create a prototype of our design, react to create the front-end, and php to create the back-end. We also used MySQL to store user data.
+          I figma to create a prototype of our design, react to create the front-end, and php to create the back-end. We also used MySQL to store user data.
         </p>
         <p>
-          I was responsible for creating the front-end of the website. I used React to create the user interface and ensure that the website was responsive and easy to use. I also worked on the design of the website, making sure that it was visually appealing and easy to navigate.
+          I was responsible for creating the front-end of the website. I created a figma file to design the UI of the website and mainly worked on the landing page, login and register pages, navbar, and summary page.
         </p>
         <p>
           Here is my figma design for the website: <img src="/images/girlsWhoBudget.png" alt="Girls Who Budget Design" className="project-image" />
         </p>
         <p>
-          We are currently working on connecting the APIs so that user data can be stored and accessed. We are also working on adding additional features, such as the ability to set financial goals and track progress over time. I am currently working on bringing the front-end to life!
+          We presented our final project to our peers in the Girls Who Code club and received positive feedback. We are currently working on adding more features to the website.
         </p>
+        <p>
+          Check out our project on our website:{' '}
+          <a href="http://girlswhobudget.xyz/" target="_blank" rel="noopener noreferrer">
+            Girls Who Budget
+          </a>
+        </p>
+        <a
+          href="https://github.com/viannahuynh/Group5GWC"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
       </>
     )
   },
   {
-    id: "5",
+    id: "6",
     title: "AmplifyHER",
     date: "April, 2024",
     image: "/images/AmplifyHER-pic.jpg",
@@ -75,7 +88,7 @@ const projects = [
     )
   },
   {
-    id: "4",
+    id: "5",
     title: "Fireboy and Watergirl",
     date: "Spring, 2024",
     image: "/images/FBaWG-pic.jpeg",
@@ -93,11 +106,18 @@ const projects = [
         <p>
         Throughout the project, we encountered challenges such as properly scaling the game characters to match the dimensions of each level and learning new software, as we were relatively inexperienced in game design. Despite these obstacles, we successfully completed the project and presented our work to other groups, demonstrating the results of our dedication and teamwork. 
         </p>
+        <a
+          href="https://github.com/girlswhocodeUCF/Javascript-Game"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
       </>
     )
   },
   {
-    id: "3",
+    id: "4",
     title: "Knights' Wildlife Tracker",
     date: "October, 2024",
     image: "/images/wildlife-tracker.png",
@@ -144,6 +164,41 @@ const projects = [
       </>
     ),
   },
+  {
+    id: "3",
+    title: "DrawSpace",
+    date: "Spring, 2025",
+    image: "/images/DrawSpace.png",
+    details: (
+      <>
+        <p>
+          I created DrawSpace in the Spring of 2025 as a group project to explore the world of generative art and creative coding. The project is a web-based application that allows users to create unique and visually stunning artworks using simple shapes and colors.
+        </p>
+        <p>
+          The application is built using React with a focus on creating an intuitive user interface that encourages creativity. Users can select different shapes, colors, and patterns to create their own unique compositions, save it to their gallery, and brainstorm ideas for future creations.
+        </p>
+        <p>
+          I was responsible for designing the user interface of the website. I created a figma file to design the UI of the website and mainly worked on the landing page where I added a star animation to the background, login and register pages, navbar, canvas page, brainstormer page and gallery page.
+        </p>
+        <p>
+          Here is my figma design for the website: <img src="/images/DrawSpaceFigma.png" alt="DrawSpace Design" className="project-image" />
+        </p>
+        <p>
+          Check out our project on our website:{' '}
+          <a href="https://morning-river-24657-2a6c6eb4ef81.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            DrawSpace
+          </a>
+        </p>
+        <a
+          href="https://github.com/amanihas/DrawSpace"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+    </>
+    ),
+  }
 ];
 
 function ProjectDetail() {

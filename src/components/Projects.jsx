@@ -12,24 +12,28 @@ const projects = [
   {
     id: 2,
     title: "Girls Who Budget",
-    previewImage: "/images/Girls_Who_Budget.webp",
+    previewImage: "/images/GWB.png",
   },
   {
     id: 3,
+    title: "DrawSpace",
+    previewImage: "/images/DrawSpace.png",
+  },
+  {
+    id: 4,
     title: "Knights' Wildlife Tracker",
     previewImage: "/images/Screenshot-green.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Fireboy and Watergirl",
     previewImage: "/images/FBaWG-pic.jpeg",
   },
   {
-    id: 5,
+    id: 6,
     title: "AmplifyHER",
     previewImage: "/images/amplifyher.png",
   }
-
 ];
 
 function Projects() {
